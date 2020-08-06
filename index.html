@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="custom-select">
+            <label class="enter">Votre Pari :</label>
+            <select id="choix" name="choix">
+                <option class="choix" value="impair">Impair</option>
+                <option class="choix" value="pair">Pair</option>
+                <option class="choix" value="1">1</option>
+                <option class="choix" value="2">2</option>
+                <option class="choix" value="3">3</option>
+                <option class="choix" value="4">4</option>
+                <option class="choix" value="5">5</option>
+                <option class="choix" value="6">6</option>
+                <option class="choix" value="7">7</option>
+                <option class="choix" value="8">8</option>
+                <option class="choix" value="9">9</option>
+                <option class="choix" value="10">10</option>
+                <option class="choix" value="11">11</option>
+                <option class="choix" value="12">12</option>
+                <option class="choix" value="13">13</option>
+                <option class="choix" value="14">14</option>
+                <option class="choix" value="15">15</option>
+                <option class="choix" value="16">16</option>
+                <option class="choix" value="17">17</option>
+                <option class="choix" value="18">18</option>
+                <option class="choix" value="19">19</option>
+                <option class="choix" value="20">20</option>
+                <option class="choix" value="21">21</option>
+                <option class="choix" value="22">22</option>
+                <option class="choix" value="23">23</option>
+                <option class="choix" value="24">24</option>
+                <option class="choix" value="25">25</option>
+                <option class="choix" value="26">26</option>
+                <option class="choix" value="27">27</option>
+                <option class="choix" value="28">28</option>
+                <option class="choix" value="29">29</option>
+                <option class="choix" value="30">30</option>
+                <option class="choix" value="31">31</option>
+                <option class="choix" value="32">32</option>
+                <option class="choix" value="33">33</option>
+                <option class="choix" value="34">34</option>
+                <option class="choix" value="35">35</option>
+                <option class="choix" value="36">36</option>
+
+            </select>
+        </div>
+
+        <div class="mise">
+            <label class="enter">Montant misé:</label>
+            <input type="number" id="number" value=1 min="1">
+        </div>
+
+        <div class="button">
+            <input type="button" id="Go" value="Go!!!" onclick="jouer()">
+        </div>
+        <div style="background-color: black;">
+            <div class="montact">
+                <div>
+                    <label>Montant Actuel :</label>
+                    <input type="number" id="mact" value="100" disabled>
+                </div>
+
+            </div>
+
+            <div class="montper">
+                <div>
+                    <label for="">Montant Perdu :</label>
+                    <input type="number" id="mperd" value="0" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="code javascript/script.js"></script>
+</body>
+
+</html>

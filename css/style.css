@@ -1,0 +1,88 @@
+body {
+    background-image: url(casino.jpg);
+    background-size: cover;
+}
+
+input,
+select {
+    size: 50%;
+    color: #50d524;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+
+.mise {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+}
+
+
+.enter {
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.custom-select {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-family: monospace;
+    color: white;
+    
+    font-size: 20px;
+
+}
+
+.montact {
+    position: relative;
+    text-align: right;
+    font-family: monospace;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+
+
+}
+
+.montper {
+    position: relative;
+    text-align: right;
+    font-family: monospace;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+.button {
+    color: #129637;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    
+}
+
+
+#Go{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+#Go:hover{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #129637;
+    color: black;
+    border-width: 1px;
+    border: black solid ;
+    width: 160px;
+    height: 50px;
+}
